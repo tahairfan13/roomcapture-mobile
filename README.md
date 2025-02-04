@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# RoomPlan App
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -34,6 +34,13 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+![RoomPlan Intro](./assets/images/onboparding.jpeg)
+![Room Analysis](./assets/images/captureImage.jpeg)
+![Room Features](./assets/images/captureCard.jpeg)
+
+## Expo App URL
+You can view the app [here](https://expo.dev/accounts/tahairfan1310/projects/RoomPlanApp/builds/f5026cfe-3785-46ec-bae8-3dbfdbe04a21).
 
 ## Learn more
 
