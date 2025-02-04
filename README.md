@@ -40,7 +40,7 @@ This command will move the starter code to the **app-example** directory and cre
 ![Room Features](./assets/images/captureCard.jpeg)
 
 ## Expo App URL
-You can view the app [here](https://expo.dev/accounts/tahairfan1310/projects/RoomPlanApp/builds/f5026cfe-3785-46ec-bae8-3dbfdbe04a21).
+You can view the app to download [here](https://expo.dev/accounts/tahairfan1310/projects/RoomPlanApp/builds/ad77aac0-af82-44b3-935a-6778768126da).
 
 ## Learn more
 
