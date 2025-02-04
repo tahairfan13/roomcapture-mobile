@@ -5,13 +5,21 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 type RootStackParamList = {
   Onboarding: undefined;
-  RoomCapture: undefined;
+  RoomCapture: {
+    presentation?: 'fullScreen';
+  };
 };
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'Onboarding'>;
 
 export default function OnboardingScreen() {
   const navigation = useNavigation<NavigationProp>();
+
+  const startScan = () => {
+    navigation.navigate('RoomCapture', {
+      presentation: 'fullScreen'
+    });
+  };
 
   return (
     <View style={styles.container}>
@@ -23,7 +31,7 @@ export default function OnboardingScreen() {
       </Text>
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => navigation.navigate('RoomCapture')}
+        onPress={startScan}
       >
         <Text style={styles.buttonText}>Start Scanning</Text>
       </TouchableOpacity>
